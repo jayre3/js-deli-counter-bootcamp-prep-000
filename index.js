@@ -11,3 +11,8 @@ var katzDeliLine = [];
 function nowServing(katzDeliLine) {
   var i = katzDeliLine.length;
   var count = 0;
+  if(count < i) {
+    return (`Currently serving ${katzDeliLine.shift()}.`);
+  }
+  else {
+    return 'There is nobody waiting to be served.';
