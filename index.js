@@ -7,3 +7,7 @@ function takeANumber(katzDeliLine, name) {
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
 var katzDeliLine = [];
+
+function nowServing(katzDeliLine) {
+  var i = katzDeliLine.length;
+  var count = 0;
